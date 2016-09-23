@@ -12,6 +12,7 @@
 		98CB7A891D721981002D1F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CB7A871D721981002D1F24 /* Main.storyboard */; };
 		98CB7A8B1D721981002D1F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CB7A8A1D721981002D1F24 /* Assets.xcassets */; };
 		98CB7A8E1D721981002D1F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CB7A8C1D721981002D1F24 /* LaunchScreen.storyboard */; };
+		98CB7A9A1D722183002D1F24 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98CB7A991D722183002D1F24 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98CB7A8A1D721981002D1F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98CB7A8D1D721981002D1F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98CB7A8F1D721981002D1F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CB7A991D722183002D1F24 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				98CB7A851D721981002D1F24 /* ViewController.swift */,
 				98CB7A871D721981002D1F24 /* Main.storyboard */,
 				98CB7A8A1D721981002D1F24 /* Assets.xcassets */,
+				98CB7A991D722183002D1F24 /* background.jpg */,
 				98CB7A8C1D721981002D1F24 /* LaunchScreen.storyboard */,
 				98CB7A8F1D721981002D1F24 /* Info.plist */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CB7A9A1D722183002D1F24 /* background.jpg in Resources */,
 				98CB7A8E1D721981002D1F24 /* LaunchScreen.storyboard in Resources */,
 				98CB7A8B1D721981002D1F24 /* Assets.xcassets in Resources */,
 				98CB7A891D721981002D1F24 /* Main.storyboard in Resources */,
@@ -251,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codefrux.Clima;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codefrux.Clima;
